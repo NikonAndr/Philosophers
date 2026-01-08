@@ -31,3 +31,8 @@ z predykatem
 pod mutexem
 
 bez busy-waitingu
+
+kompilacja na Ubuntu 
+
+sudo apt install g++ libncurses-dev
+g++ -std=c++20 main.cpp -pthread -lncurses -o main
